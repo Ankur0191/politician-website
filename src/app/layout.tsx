@@ -2,7 +2,7 @@
 'use client'
 
 import { ThemeProvider } from '@mui/material/styles'
-import theme from '@/theme/theme'
+import theme from "../theme"
 import CssBaseline from '@mui/material/CssBaseline'
 import '@fontsource/noto-sans-devanagari'
 import '@fontsource/roboto'

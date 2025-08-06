@@ -40,3 +40,51 @@ a {
     color-scheme: dark;
   }
 }
+.bg-particles {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.particle {
+  position: absolute;
+  background: rgba(19, 136, 8, 0.3);
+  border-radius: 50%;
+  animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-100px) scale(1.2);
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+}
+
+/* Nav Links */
+.nav-link {
+  text-decoration: none;
+  color: #1b1b1b;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: #138808;
+}
+
+/* Drawer Links */
+.drawer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
