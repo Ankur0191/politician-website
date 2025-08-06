@@ -172,7 +172,7 @@ export default function ContactSection() {
         <Typography variant="body2" color="text.secondary">
           © {new Date().getFullYear()} Bijendar Yadav | Powered by{' '}
           <a
-            href="https://wictronix.in"
+            href="https://wictronix.com"
             target="_blank"
             rel="noopener noreferrer"
             style={{ textDecoration: 'none', color: '#1976d2' }}
